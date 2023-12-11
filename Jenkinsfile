@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage("Checkout from GIT") {
             steps {
-                git branch: 'main', credentialsId: '04da37c2-3920-4970-bb93-3a7456f3551b', url: 'https://github.com/Madeep9347/Terraform-Infrastructure-Project.git'
+                git branch: 'main', credentialsId: '04da37c2-3920-4970-bb93-3a7456f3551b', url: 'https://github.com/Narasimha76/Terraform-project.git'
             }
         }
         
